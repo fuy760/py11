@@ -1,6 +1,6 @@
 # 1、创建仓库
 
-![image-20250805223330216](.\image\image-20250805223330216.png)
+![image-20250805223330216](./image/image-20250805223330216.png)
 
 
 
@@ -8,7 +8,7 @@
 
 
 
-![image-20250805223837790](.\image\image-20250805223837790.png)
+![image-20250805223837790](./image/image-20250805223837790.png)
 
 
 
@@ -104,11 +104,11 @@ Enter passphrase (empty for no passphrase):
 
 
 
-![image-20250805224549186](.\image\image-20250805224549186.png)
+![image-20250805224549186](./image/image-20250805224549186.png)
 
 
 
-![image-20250805224616331](.\image\image-20250805224616331.png)
+![image-20250805224616331](./image/image-20250805224616331.png)
 
 
 
@@ -116,19 +116,19 @@ Enter passphrase (empty for no passphrase):
 
 
 
-![image-20250805224253396](.\image\image-20250805224253396.png)
+![image-20250805224253396](./image/image-20250805224253396.png)
 
 
 
 
 
-![image-20250805224325916](.\image\image-20250805224325916.png)
+![image-20250805224325916](./image/image-20250805224325916.png)
 
 
 
 
 
-![image-20250805224642055](.\image\image-20250805224642055.png)
+![image-20250805224642055](./image/image-20250805224642055.png)
 
 
 
@@ -148,7 +148,7 @@ Enter passphrase (empty for no passphrase):
 
 
 
-![image-20250805224733050](.\image\image-20250805224733050.png)
+![image-20250805224733050](./image/image-20250805224733050.png)
 
 
 
@@ -170,7 +170,7 @@ git clone ssh://[git@ssh.github.com:443/](git@ssh.github.com:443/YOUR-USERNAME/Y
 
 
 
-![image-20250805224826608](.\image\image-20250805224826608.png)
+![image-20250805224826608](./image/image-20250805224826608.png)
 
 
 
@@ -184,13 +184,13 @@ git clone ssh://[git@ssh.github.com:443/](git@ssh.github.com:443/YOUR-USERNAME/Y
 
 
 
-![image-20250805224842274](.\image\image-20250805224842274.png)
+![image-20250805224842274](./image/image-20250805224842274.png)
 
 
 
 
 
-![image-20250805224922083](.\image\image-20250805224922083.png)
+![image-20250805224922083](./image/image-20250805224922083.png)
 
 
 
@@ -200,13 +200,13 @@ git clone ssh://[git@ssh.github.com:443/](git@ssh.github.com:443/YOUR-USERNAME/Y
 
 
 
-![image-20250805225214866](.\image\image-20250805225214866.png)
+![image-20250805225214866](./image/image-20250805225214866.png)
 
 
 
 
 
-![image-20250805225229253](.\image\image-20250805225229253.png)
+![image-20250805225229253](./image/image-20250805225229253.png)
 
 
 
@@ -220,7 +220,7 @@ git clone ssh://[git@ssh.github.com:443/](git@ssh.github.com:443/YOUR-USERNAME/Y
 
 
 
-![image-20250805225421548](.\image\image-20250805225421548.png)
+![image-20250805225421548](./image/image-20250805225421548.png)
 
 
 
@@ -228,7 +228,7 @@ git clone ssh://[git@ssh.github.com:443/](git@ssh.github.com:443/YOUR-USERNAME/Y
 
 
 
-![image-20250805225510651](.\image\image-20250805225510651.png)
+![image-20250805225510651](./image/image-20250805225510651.png)
 
 
 
