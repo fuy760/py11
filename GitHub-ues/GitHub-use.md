@@ -260,29 +260,33 @@ git push
 
 
 
-![image-20250805233738368](C:\Users\NYZ\AppData\Roaming\Typora\typora-user-images\image-20250805233738368.png)
+![image-20250805233738368](./image/image-20250805233738368.png)
 
 
 
 其次路径问题
 
-![image-20250805233855745](C:\Users\NYZ\AppData\Roaming\Typora\typora-user-images\image-20250805233855745.png)
+![image-20250805233855745](./image/image-20250805233855745.png)
 
 
 
-![image-20250805233924237](C:\Users\NYZ\AppData\Roaming\Typora\typora-user-images\image-20250805233924237.png)
+![image-20250805233924237](./image/image-20250805233924237.png)
 
 
 
-![image-20250805233933906](C:\Users\NYZ\AppData\Roaming\Typora\typora-user-images\image-20250805233933906.png)
+![image-20250805233933906](./image/image-20250805233933906.png)
 
 
 
-![image-20250805233941936](C:\Users\NYZ\AppData\Roaming\Typora\typora-user-images\image-20250805233941936.png)
+![image-20250805233941936](./image/image-20250805233941936.png)
 
 
 
-![image-20250805233948184](C:\Users\NYZ\AppData\Roaming\Typora\typora-user-images\image-20250805233948184.png)
+
+
+
+
+![image-20250805233948184](./image/image-20250805233948184.png)
 
 
 
