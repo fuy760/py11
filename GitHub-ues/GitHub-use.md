@@ -251,3 +251,39 @@ git push
 # 7、http
 
 克隆使用http地址即可
+
+# 8、github如何上传照片
+
+首先在本地截图的照片，保存到了c盘，是绝对路径，因为没有把保存照片的文件push到仓库里，所以只把md上传，里面的图片不显示
+
+所以单独弄一个image文件夹，把图片存里面，上传
+
+
+
+![image-20250805233738368](C:\Users\NYZ\AppData\Roaming\Typora\typora-user-images\image-20250805233738368.png)
+
+
+
+其次路径问题
+
+![image-20250805233855745](C:\Users\NYZ\AppData\Roaming\Typora\typora-user-images\image-20250805233855745.png)
+
+
+
+![image-20250805233924237](C:\Users\NYZ\AppData\Roaming\Typora\typora-user-images\image-20250805233924237.png)
+
+
+
+![image-20250805233933906](C:\Users\NYZ\AppData\Roaming\Typora\typora-user-images\image-20250805233933906.png)
+
+
+
+![image-20250805233941936](C:\Users\NYZ\AppData\Roaming\Typora\typora-user-images\image-20250805233941936.png)
+
+
+
+![image-20250805233948184](C:\Users\NYZ\AppData\Roaming\Typora\typora-user-images\image-20250805233948184.png)
+
+
+
+用相对路径
