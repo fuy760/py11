@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简历</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 导航栏 -->
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">Portfolio</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="resume.html" class="active">简历</a></li>
+                <li><a href="projects.html">项目</a></li>
+                <li><a href="about.html">关于我</a></li>
+                <li><a href="contact.html">联系方式</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+
+        <!-- 简历 -->
+        <section class="resume" id="resume">
+            <h2 class="section-title">我的简历</h2>
+            <div class="timeline">
+                <!-- 教育经历 -->
+                <div class="timeline-section">
+                    <h3>教育经历</h3>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>计算机科学与技术 - 硕士研究生</h4>
+                            <h5>河南大学</h5>
+                            <p class="timeline-date">2025 - 2028</p>
+                            <p>目前处于研究生预备阶段（研0），专注于计算机科学领域的深入研究，参与学术研讨会和科研项目，为未来的学术研究打下基础。硕士研究生阶段为期三年。</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>计算机科学与技术 - 学士学位</h4>
+                            <h5>郑州财经学院</h5>
+                            <p class="timeline-date">2021 - 2025</p>
+                            <p>主修计算机科学与技术，学习了数据结构、算法分析、操作系统、数据库系统等核心课程。掌握了编程基础和软件开发技能，为后续深造打下坚实基础。</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 证书和资格 -->
+            <div class="certificates">
+                <h3>证书和资格</h3>
+                <div class="certificate-grid">
+                    <div class="certificate-item">
+                        <div class="certificate-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="certificate-info">
+                            <h4>英语四级证书</h4>
+                            <p>中国教育部考试中心</p>
+                            <p class="certificate-date">2022年</p>
+                        </div>
+                    </div>
+                    <div class="certificate-item">
+                        <div class="certificate-icon">
+                            <i class="fas fa-id-card"></i>
+                        </div>
+                        <div class="certificate-info">
+                            <h4>中共党员证书</h4>
+                            <p>中国共产党</p>
+                            <p class="certificate-date">2023年</p>
+                        </div>
+                    </div>
+                    <div class="certificate-item">
+                        <div class="certificate-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="certificate-info">
+                            <h4>优秀学生干部</h4>
+                            <p>郑州财经学院</p>
+                            <p class="certificate-date">2023年</p>
+                        </div>
+                    </div>
+                    <div class="certificate-item">
+                        <div class="certificate-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="certificate-info">
+                            <h4>计算机应用能力证书</h4>
+                            <p>全国计算机等级考试</p>
+                            <p class="certificate-date">2021年</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resume-download">
+                <a href="牛源哲的简历.pdf" onclick="this.download='牛源哲的简历.pdf'; return true;" class="btn primary"><i class="fas fa-download"></i> 下载完整简历</a>
+            </div>
+        </section>
+
+        <!-- 页脚 -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p>&copy; 2025 牛源哲. 保留所有权利.</p>
+                <p>使用 HTML, CSS 和 JavaScript 构建</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

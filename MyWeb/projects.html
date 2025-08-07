@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>项目展示</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 导航栏 -->
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">Portfolio</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="resume.html">简历</a></li>
+                <li><a href="projects.html" class="active">项目</a></li>
+                <li><a href="about.html">关于我</a></li>
+                <li><a href="contact.html">联系方式</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+
+        <!-- 项目展示 -->
+        <section class="projects" id="projects">
+            <h2 class="section-title">项目展示</h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">全部</button>
+                <button class="filter-btn" data-filter="web">网页开发</button>
+                <button class="filter-btn" data-filter="app">应用开发</button>
+                <button class="filter-btn" data-filter="design">设计</button>
+            </div>
+            <div class="project-grid">
+                <!-- 项目 1 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400" alt="校园信息管理系统">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>校园信息管理系统</h3>
+                        <p>本科毕业设计作品，开发了一个集学生、教师、课程信息管理于一体的校园信息管理系统，提高了学校管理效率。负责系统的前后端开发和数据库设计。</p>
+                        <div class="project-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Spring Boot</span>
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 项目 2 -->
+                <div class="project-card" data-category="app">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400" alt="校园活动报名小程序">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>校园活动报名小程序</h3>
+                        <p>担任计算机协会宣传部部长期间开发的小程序，方便学生查看和报名校园活动。实现了活动发布、在线报名、签到等功能，大幅提高了活动组织效率。</p>
+                        <div class="project-tags">
+                            <span class="tag">微信小程序</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">云开发</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 项目 3 -->
+                <div class="project-card" data-category="design">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400" alt="计算机协会品牌设计">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>计算机协会品牌设计</h3>
+                        <p>作为宣传部部长，负责协会的整体品牌形象设计，包括协会标志、宣传海报和活动材料的视觉设计。设计风格现代简约，提升了协会的专业形象和认知度。</p>
+                        <div class="project-tags">
+                            <span class="tag">品牌设计</span>
+                            <span class="tag">UI/UX</span>
+                            <span class="tag">平面设计</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 项目 4 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400" alt="学术论文查询系统">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>学术论文查询系统</h3>
+                        <p>研究生阶段的课程项目，开发了一个学术论文查询和管理系统，支持多维度检索、文献推荐和引用分析。主要负责前端开发和搜索算法优化。</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">ElasticSearch</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 项目 5 -->
+                <div class="project-card" data-category="app">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400" alt="智能学习助手">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>智能学习助手</h3>
+                        <p>为备考英语四级开发的移动应用，集成了单词记忆、听力练习和模拟考试等功能。采用间隔重复算法优化记忆效率，个性化推荐学习内容，提高学习效率。</p>
+                        <div class="project-tags">
+                            <span class="tag">Flutter</span>
+                            <span class="tag">Dart</span>
+                            <span class="tag">机器学习</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 项目 6 -->
+                <div class="project-card" data-category="design">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400" alt="党建文化宣传设计">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>党建文化宣传设计</h3>
+                        <p>作为学生党员，参与设计了一系列党建文化宣传材料，包括主题展板、宣传手册和活动海报。结合现代设计元素和传统文化符号，提升了党建活动的吸引力和影响力。</p>
+                        <div class="project-tags">
+                            <span class="tag">视觉设计</span>
+                            <span class="tag">排版设计</span>
+                            <span class="tag">文化宣传</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 页脚 -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p>&copy; 2025 牛源哲. 保留所有权利.</p>
+                <p>使用 HTML, CSS 和 JavaScript 构建</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

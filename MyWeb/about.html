@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于我 | 个人简历</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 导航栏 -->
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">Portfolio</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="resume.html">简历</a></li>
+                <li><a href="projects.html">项目</a></li>
+                <li><a href="about.html" class="active">关于我</a></li>
+                <li><a href="contact.html">联系方式</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+
+        <!-- 关于我 -->
+        <section class="about" id="about">
+            <h2 class="section-title">关于我</h2>
+            <!-- 个人照片 -->
+            <div class="about-photo">
+                <div class="profile-image">
+                    <img src="images/profile.jpg" alt="牛源哲的照片" onerror="this.src='https://via.placeholder.com/300x300?text=个人照片';this.onerror='';">
+                </div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>在这里添加您的个人简介...</p>
+                </div>
+            </div>
+            
+            <!-- 个人兴趣 -->
+            <div class="interests">
+                <h3>个人兴趣</h3>
+                <div class="interests-container">
+                    <div class="interest-item">
+                        <i class="fas fa-laptop-code"></i>
+                        <p>编程</p>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-book"></i>
+                        <p>阅读</p>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-music"></i>
+                        <p>音乐</p>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-plane"></i>
+                        <p>旅行</p>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-camera"></i>
+                        <p>摄影</p>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-chess"></i>
+                        <p>下棋</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 页脚 -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p>&copy; 2025 牛源哲. 保留所有权利.</p>
+                <p>使用 HTML, CSS 和 JavaScript 构建</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

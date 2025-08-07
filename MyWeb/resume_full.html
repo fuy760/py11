@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>牛源哲的简历</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #2563eb;
+            padding-bottom: 10px;
+        }
+        h1 {
+            color: #2563eb;
+            margin: 0;
+        }
+        h2 {
+            color: #2563eb;
+            border-bottom: 1px solid #e5e7eb;
+            padding-bottom: 5px;
+            margin-top: 25px;
+        }
+        .info-line {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .info-item {
+            margin-right: 20px;
+        }
+        .info-item strong {
+            font-weight: 600;
+        }
+        .tech-highlight {
+            margin-left: 20px;
+        }
+        .skill-item {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>牛源哲</h1>
+    </div>
+
+    <div class="info-line">
+        <div class="info-item"><strong>电话：</strong>16639196990</div>
+        <div class="info-item"><strong>邮箱：</strong>1944208504@qq.com</div>
+    </div>
+    <div class="info-line">
+        <div class="info-item"><strong>政治面貌：</strong>预备党员</div>
+        <div class="info-item"><strong>家乡：</strong>焦作</div>
+    </div>
+
+    <h2>报考信息</h2>
+    <div class="info-line">
+        <div class="info-item"><strong>报考院校：</strong>河南大学</div>
+        <div class="info-item"><strong>报考学院：</strong>计算机与信息工程学院</div>
+        <div class="info-item"><strong>报考专业：</strong>计算机技术</div>
+    </div>
+    <div class="info-line">
+        <div class="info-item"><strong>政治：</strong>68</div>
+        <div class="info-item"><strong>英语：</strong>67</div>
+        <div class="info-item"><strong>数学：</strong>104</div>
+        <div class="info-item"><strong>计算机学科：</strong>102</div>
+    </div>
+    <div class="info-line">
+        <div class="info-item"><strong>总分：</strong>341</div>
+    </div>
+
+    <h2>教育背景</h2>
+    <div class="info-line">
+        <div class="info-item"><strong>2021.9 —— 2025.7</strong></div>
+        <div class="info-item"><strong>郑州财经学院</strong></div>
+        <div class="info-item"><strong>计算机科学与技术</strong></div>
+    </div>
+    <div>
+        <p><strong>主修课程：</strong>程序设计基础、数据结构与算法、计算机组成原理、数据库原理及应用、计算机网络、操作系统、Linux系统及应用。</p>
+        <p><strong>外语水平：</strong>CET4。</p>
+        <p><strong>担任职务：</strong>计算机协会宣传部部长，组织过社区义务维修活动。</p>
+        <p><strong>获得奖项：</strong>优秀学生干部、文明大学生。</p>
+    </div>
+
+    <h2>项目经历</h2>
+    <p>项目基于Linux平台开发。当用户输入关键字后，系统后台自动检索与关键字相关性最高的若干条法规信息并返回给用户、实现推荐功能。</p>
+    <p><strong>核心技术：</strong>Reactor模型、线程池、Cppjieba中文分词库、tinyxml2解析网页库。</p>
+    <p><strong>技术亮点：</strong></p>
+    <div class="tech-highlight">
+        <p>（1）Reactor与线程池结合的并发服务器模型，减少多线程之间切换开销。</p>
+        <p>（2）使用Cppjieba开源分词库对中文进行分词，使用Simhash算法去除网页库中相同的文档。</p>
+        <p>（3）实现最小编辑距离算法计算候选词与查询词相似度。</p>
+    </div>
+
+    <h2>专业技能</h2>
+    <div class="skill-item">
+        <p><strong>编程语言：</strong>熟悉c/c++语言，掌握指针、结构体、类、继承、多态、日志系统的基本概念、文件I/O基本操作、new/delete、string的底层原理、掌握单例模式的设计与实现。</p>
+    </div>
+    <div class="skill-item">
+        <p><strong>C++模板库：</strong>对STL六大标准组件有一定了解，了解vector、deque、list底层原理，熟悉set、map基本操作，阅读过流迭代器的源码，了解基本算法。</p>
+    </div>
+    <div class="skill-item">
+        <p><strong>C++11线程：</strong>对互斥锁、条件变量、生产者消费者原理有一定了解，熟悉多线程编程。</p>
+    </div>
+    <div class="skill-item">
+        <p><strong>网络编程：</strong>熟悉Linux下的Socket编程、熟悉TCP/UDP协议、TCP状态图，熟悉网络IO复用模型select/epoll，熟悉并发服务器模型Reactor。</p>
+    </div>
+    <div class="skill-item">
+        <p><strong>操作系统：</strong>熟悉Linux文件系统。</p>
+    </div>
+    <div class="skill-item">
+        <p><strong>数据库：</strong>熟练掌握SQL的增删改查功能，熟悉Workbench的操作MySQL，了解非关系型数据库Redis的基本概念。</p>
+    </div>
+    <div class="skill-item">
+        <p><strong>开发工具：</strong>熟悉编程软件VS code、Cursor，熟悉源码阅读工具SlickEdit，熟悉GCC工具链、vim文本编辑器，熟悉StarUML建模工具。</p>
+    </div>
+</body>
+</html>
+
+
